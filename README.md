@@ -61,7 +61,8 @@ computeWays	This function computes the number of different sets of size k that c
 factorial	This function computes factorials recursively. It is called by computeWays.
 
 **Example Test Cases**
-
+<table><tr><td>
+<samp>
 How many balls (1-12) are in the pool to pick from? 7
 How many balls (1-7) will be drawn? 9
 Input Error! 
@@ -83,7 +84,9 @@ Probability of winning is 0.0013
 Odds of winning are 1 in 791
 
 Would you like to calculate the probability of another scenario? (y/n): n
+</samp>
 
+</td></tr></table>
 
 Validation
 https://www.lotterycritic.com/lottery-calculators/lottery-odds-calculator/
