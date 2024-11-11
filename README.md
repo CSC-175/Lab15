@@ -64,8 +64,11 @@ factorial	This function computes factorials recursively. It is called by compute
 <table><tr><td>
 <samp>
 How many balls (1-12) are in the pool to pick from? 7
+  
 How many balls (1-7) will be drawn? 9
-Input Error! 
+
+Input Error!
+
 How many balls (1-7) will be drawn? 3
 
 Probability of winning is 0.0286
@@ -74,10 +77,15 @@ Odds of winning are 1 in 35
 Would you like to calculate the probability of another scenario? (y/n): y
 
 How many balls (1-12) are in the pool to pick from? 14
+
 Input Error! There must be between 1 and 12 balls.
+
 How many balls (1-12) are in the pool to pick from? 12
+
 How many balls (1-12) will be drawn? red
+
 Input Error! 
+
 How many balls (1-12) will be drawn? 5
 
 Probability of winning is 0.0013
