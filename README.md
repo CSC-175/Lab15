@@ -40,7 +40,7 @@ This assignment has the following purposes:
 * Practice creating functions to implement modular solution
 
 
-Complete the given template, Lab15Driver.cpp, that will calculate the probability of winning a lottery within the following parameters. The program will prompt the user to specify the number of numbered balls in a set of 1-12 and the number of balls to be drawn that the user will try to match of the winning numbers between 1 and the size of the selection set chosen. The order of the selected numbers is not significant. The program should output the probability of matching the drawn numbers and the odds of matching the drawn numbers.
+Complete the given template, Lab15.cpp, that will calculate the probability of winning a lottery within the following parameters. The program will prompt the user to specify the number of numbered balls in a set of 1-12 and the number of balls to be drawn that the user will try to match of the winning numbers between 1 and the size of the selection set chosen. The order of the selected numbers is not significant. The program should output the probability of matching the drawn numbers and the odds of matching the drawn numbers.
 
 **Program Steps**
 
