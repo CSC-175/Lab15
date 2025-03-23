@@ -56,7 +56,7 @@ The program functions must carry out the following steps:
 The program must contain the following functions that carry out the operations in the given descriptions. Use the function names given in the table. All data must be passed to required functions by value or reference; no global variables are allowed.
 
 <table>
-<tr><td>main</td><td>This function, provided in the Lab14Driver.cpp file, organizes calls to other functions, and reports results.</td></tr>
+<tr><td>main</td><td>This function, provided in the Lab14Driver.cpp template file, organizes calls to other functions, and reports results.</td></tr>
 <tr><td>getInfo</td><td>This function gets and validates the number of numbers to select from (n) and the number that must be chosen (k). Range as well as data type must be validated for both n (size of pool) and k (number to match).</td></tr>
 <tr><td>computeWays</td><td>This function computes the number of different sets of size k that can be chosen from n numbers. The compute ways formula is: P(A)=k!(n-k)!/n!</td></tr>
 <tr><td>factorial</td><td>this function computes factorials recursively. It is called by computeWays.</td></tr></table>
