@@ -22,7 +22,7 @@ So, the odds of rolling two 6's is equal to 1 in 36 which equals a probability o
 
 ## Directions
 
-Complete the given template, Lab15.cpp, that will calculate the probability of winning a lottery within the following parameters. The program will prompt the user to specify the number of numbered balls in a set of 1-12 and the number of balls to be drawn that the user will try to match of the winning numbers between 1 and the size of the selection set chosen. The order of the selected numbers is not significant. The program should output the probability of matching the drawn numbers and the odds of matching the drawn numbers.
+Complete the given template, <b>lab15.cpp</b>, that will calculate the probability of winning a lottery within the following parameters. The program will prompt the user to specify the number of numbered balls in a set of 1-12 and the number of balls to be drawn that the user will try to match of the winning numbers between 1 and the size of the selection set chosen. The order of the selected numbers is not significant. The program should output the probability of matching the drawn numbers and the odds of matching the drawn numbers.
 
 **Program Steps**
 
@@ -31,7 +31,7 @@ The program functions must carry out the following steps:
 * Get and validate how many numbers there are to choose from (n).
 * Get and validate how many of these numbers must be selected (k).
 * Compute the number of ways a set of k items can be selected from a set of n items.
-* Report to the probability and odds of winning.
+* Report the probability and odds of winning.
 
 **Functional Decomposition**
 
@@ -41,7 +41,7 @@ The program must contain the following functions that carry out the operations i
 <tr><td>main</td><td>This function, provided in the Lab14Driver.cpp template file, organizes calls to other functions, and reports results.</td></tr>
 <tr><td>getInfo</td><td>This function gets and validates the number of numbers to select from (n) and the number that must be chosen (k). Range as well as data type must be validated for both n (size of pool) and k (number to match).</td></tr>
 <tr><td>computeWays</td><td>This function computes the number of different sets of size k that can be chosen from n numbers. The compute ways formula is: P(A)=k!(n-k)!/n!</td></tr>
-<tr><td>factorial</td><td>this function computes factorials recursively. It is called by computeWays.</td></tr></table>
+<tr><td>factorial</td><td>This function computes factorials recursively. It is called by computeWays.</td></tr></table>
 
 ## Interface Prototype Example
 <pre><b>How many balls (1-12) are in the pool to pick from? 7  
