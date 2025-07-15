@@ -43,28 +43,28 @@ The program must contain the following functions that carry out the operations i
 <tr><td>computeWays</td><td>This function computes the number of different sets of size k that can be chosen from n numbers. The compute ways formula is: P(A)=k!(n-k)!/n!</td></tr>
 <tr><td>factorial</td><td>this function computes factorials recursively. It is called by computeWays.</td></tr></table>
 
-**Example Test Cases**
-<table><tr><td>
-<samp>
-How many balls (1-12) are in the pool to pick from? 7  
-<br/>How many balls (1-7) will be drawn? 9
-<br/>Input Error!
-<br/>How many balls (1-7) will be drawn? 3
-<br/><br/>Probability of winning is 0.0286
-<br/>Odds of winning are 1 in 35
-<br/><br/>Would you like to calculate the probability of another scenario? (y/n): y
-<br/><br/>How many balls (1-12) are in the pool to pick from? 14
-<br/>Input Error! There must be between 1 and 12 balls.
-<br/>How many balls (1-12) are in the pool to pick from? 12
-<br/>How many balls (1-12) will be drawn? red
-<br/>Input Error! 
-<br/>How many balls (1-12) will be drawn? 5
-<br/><br/>Probability of winning is 0.0013
-<br/>Odds of winning are 1 in 791
-<br/><br/>Would you like to calculate the probability of another scenario? (y/n): n
-</samp>
+## Interface Prototype Example
+<pre><b>How many balls (1-12) are in the pool to pick from? 7  
+How many balls (1-7) will be drawn? 9
+Input Error!
+How many balls (1-7) will be drawn? 3
 
-</td></tr></table>
+Probability of winning is 0.0286
+Odds of winning are 1 in 35
+
+Would you like to calculate the probability of another scenario? (y/n): y
+
+How many balls (1-12) are in the pool to pick from? 14
+Input Error! There must be between 1 and 12 balls.
+How many balls (1-12) are in the pool to pick from? 12
+How many balls (1-12) will be drawn? red
+Input Error! 
+How many balls (1-12) will be drawn? 5
+
+Probability of winning is 0.0013
+Odds of winning are 1 in 791
+
+Would you like to calculate the probability of another scenario? (y/n): n</b></pre>
 
 Validation
 https://www.lotterycritic.com/lottery-calculators/lottery-odds-calculator/
