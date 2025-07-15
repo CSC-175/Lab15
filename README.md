@@ -1,6 +1,6 @@
 # Random Drawing Probability Calculator
 
-**Background**
+## Background
 
 Probability is the measure of the chance or likelihood that some random event will occur. Calculating probabilities allows you to use logic and reason even with some degree of uncertainty. Probability can be calculated using the following expression:
 
@@ -11,34 +11,16 @@ or
 **P(A) = k / N**
 
 Where:
+<pre><b>P(A)</b> = Probability of an event (event A) occurring
+<b>k</b> = Number of ways the event can occur (frequency)
+<b>N</b> = Total number of outcomes possible </pre>
 
-**P(A)** = Probability of an event (event A) occurring
-
-**k** = Number of ways the event can occur (frequency)
-
-**N** = Total number of outcomes possible
-
-For example, how do we calculate the probability of rolling a 6 sided fair die twice and getting two 6's?
-
-For this example
-
+<pre><b>For example, how do we calculate the probability of rolling a 6 sided fair die twice and getting two 6's?
 Number of ways an event can occur (frequency) is 1
-
 The total number of outcomes possible is equal to 36 because each time the die is rolled you can get any of 6 outcomes.
+So, the odds of rolling two 6's is equal to 1 in 36 which equals a probability of .0278</b></pre>
 
-So, the probability of rolling two 6's is equal to 1 divided by 36 which equals .0277
-
-
-
-
-Purpose of Assignment
-
-
-This assignment has the following purposes:
-
-* Practice analyzing a problem requiring functional decomposition
-* Practice creating functions to implement modular solution
-
+## Directions
 
 Complete the given template, Lab15.cpp, that will calculate the probability of winning a lottery within the following parameters. The program will prompt the user to specify the number of numbered balls in a set of 1-12 and the number of balls to be drawn that the user will try to match of the winning numbers between 1 and the size of the selection set chosen. The order of the selected numbers is not significant. The program should output the probability of matching the drawn numbers and the odds of matching the drawn numbers.
 
