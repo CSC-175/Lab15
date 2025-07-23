@@ -21,9 +21,6 @@ double factorial(int);
 * The formula for this is     k!(n- k)!                            *
 *                             --------                             *
 *                                 n!                               *
-* Note that the computation is done in a way that does not require *
-* multiplying two factorials together. This is done to prevent any *
-* intermediate result becoming so large that it causes overflow.   *
 ********************************************************************/
 
 
